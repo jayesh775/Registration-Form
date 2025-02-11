@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <header>
+        <img src="Images/SuLogo.png" alt="Sushant University" width="20%">
+        <h1 style="font-size:36px"><i><u>Student Registration Form</u></i></h1>
+        </header>
+
+        <main>
+            <fieldset>
+                <legend>Student Details</legend>
+                <p>First Name: <input type="text" name="fname" required> &nbsp;&nbsp;&nbsp;&nbsp; Last Name: <input type="text" name="lname" required> </p>
+                
+                <p>Father's Name: <input type="text" name="P1name" required> &nbsp;&nbsp;&nbsp;&nbsp; Mother's Name: <input type="text" name="P2name" required> </p>
+                
+                <p>Gender:   <input type="radio" name="gender" id="male" required>Male &nbsp;&nbsp; <input type="radio" name="gender" id="female" required>Female &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  DOB: <input type="date" name="dob" required ></p>
+                
+                <p>Language Known: <input type="checkbox" name="Language" id="English" required>English &nbsp;&nbsp; <input type="checkbox" name="Language" id="Hindi" required>Hindi &nbsp;&nbsp; <input type="checkbox" name="Language" id="French" required>French &nbsp;&nbsp; <input type="checkbox" name="Language" id="arabic" required>Arabic </p>
+
+                <p>Address: <textarea name="Address" id="Address" col="100" rows="4"></textarea></p>
+
+                <p>Email: <input type="email" name="email" required> &nbsp;&nbsp;&nbsp;&nbsp; Mobile: <input type="number" name="mobile" required> </p>
+
+                <p>Password: <input type="password" name="password" required> &nbsp;&nbsp;&nbsp;&nbsp; Check Password: <input type="text" name="check" required> </p>
+
+            </fieldset>
+
+            <br><br><br>
+
+            <fieldset>
+                <legend>Education Details</legend>
+                <p>
+                    <select name="school" id="school">
+                        <option value=" ">--Select School--</option>
+                        <option value="Engineering">School Of Engineering And Technology</option>
+                    </select>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="Course" id="Course">
+                        <option value=" ">--Select Course--</option>
+                        <option value="MCA">MCA</option>
+                    </select>
+                </p>
+                <p>Graduation Marsheet: <input type="file" name="graduation"> </p>
+                <p>12th class Marsheet: <input type="file" name="graduation"> </p>
+                <p>10th class Marsheet: <input type="file" name="graduation"> </p>
+
+            </fieldset>
+
+            <p><input type="checkbox" name="Student" id="Student" required> I have provided all the information correctly to the best of my knowledge & take full reponsibility for any consequences.</p>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+
+        </main>
+
+    </body>
+</html>
